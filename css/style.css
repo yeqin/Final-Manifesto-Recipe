@@ -1,0 +1,21 @@
+.page-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.page-image {
+  width: 60%;
+  height: 60%;
+  transition: all .5s;
+}
+
+.page-image:hover {
+  width: 75%;
+  height: 75%;
+}
+
+.section {
+  background-image: url('../images/bg.jpg');
+}

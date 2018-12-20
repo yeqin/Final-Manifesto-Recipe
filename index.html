@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Manifesto & Recipe</title>
+  <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section" id="section0">
+      <p>
+        <img class="page-image" src="./images/主页面_课程逻辑介绍.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section1">
+      <h2 class="page-title">.</h2>
+      <p>
+        <img class="page-image" src="./images/第一课概念.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section2">
+      <h2 class="page-title">..</h2>
+      <p>
+        <img class="page-image" src="./images/第一课教案.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section3">
+      <h2 class="page-title">...</h2>
+      <p>
+        <img class="page-image" src="./images/第二课概念.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section4">
+      <h2 class="page-title">....</h2>
+      <p>
+        <img class="page-image" src="./images/第二课教案.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section5">
+      <h2 class="page-title">.....</h2>
+      <p>
+        <img class="page-image" src="./images/第三课概念.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section6">
+      <h2 class="page-title">......</h2>
+      <p>
+        <img class="page-image" src="./images/第三课教案.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section7">
+      <h2 class="page-title">.......</h2>
+      <p>
+        <img class="page-image" src="./images/第四课概念.png" alt="">
+      </p>
+    </div>
+    <div class="section" id="section8">
+      <h2 class="page-title">........</h2>
+      <p>
+        <img class="page-image" src="./images/第四课教案.png" alt="">
+      </p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./js/fullpage.js"></script>
+  <script type="text/javascript" src="./js/examples.js"></script>
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      sectionsColor: [
+        '#E4E4E4',
+        '#14222C', '#7D828E', '#273949', '#83858F',
+        '#3A4D60', '#7A8291', '#2A3C4D', '#636977'
+      ],
+      anchors: [
+        'main',
+        'firstPage', 'secondPage', '3rdPage', '4thPage',
+        '5thPage', '6thPage', '7thPage', '8thPage'
+      ],
+      navigation: true,
+      navigationTooltips: [
+        'Title',
+        'Volatility', '*Collage*', 'Complexity', '*Fiber*',
+        'Ambiguity', '*Drawing*', 'Uncertainty', '*Glitch Art*',
+      ],
+      showActiveTooltip: true,
+      menu: '#menu',
+    });
+  </script>
+
+</body>
+
+</html>
